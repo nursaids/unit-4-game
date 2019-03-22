@@ -1,0 +1,97 @@
+body{
+    background-image: url("../images/backgroundImage.png");
+      
+    }
+
+
+h1{
+
+background: red;
+text-align: center;
+color:white;
+float: left;
+padding-right: 25px;
+
+}
+
+p{
+    
+    text-align: left;
+    color:red;
+    float: left;
+    margin: 0 auto;
+    width:600px;
+    background-color:#FFCB9C;
+    padding-top: 20px;
+    
+}
+
+.info{
+    width:450px;
+    padding: 20px;
+  
+    
+}
+
+
+
+.game{
+    
+    width:600px;
+    padding: 20px;
+
+
+  
+    
+}
+
+
+#win-loss-tracker{
+background-color:rgb(216, 181, 181);
+color:rgb(101, 101, 168);
+float: left;
+padding: 15px;
+height:100px;
+width:150px;
+margin: 10px 10px 10px 10px;
+
+
+
+}
+
+h2{
+background-color:teal;
+color:blue;
+float: left;
+padding: 5px;
+height:100px;
+width:350px;
+margin:10px 0px 10px 0px;
+}
+
+h4{
+color:blue;
+background-color:rgb(187, 218, 218);
+margin:10px 0px 10px 0px;
+width:200px
+
+}
+#scoreResult{
+background-color:rgb(187, 218, 218);
+color:blue;
+float: left;
+padding: 5px;
+height:100px;
+width:200px;
+margin:10px 0px 10px 0px;
+
+
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: auto;
+  }
